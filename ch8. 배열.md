@@ -24,11 +24,8 @@ int main(void)
 - 출력 결과
 
   50
-
   30
-
   50
-
   -858993460
 ```
 
@@ -61,9 +58,7 @@ int main(void)
 - 출력 결과
 
 80 95 77 84 100
-
    80   95   77   84  100
-
 평균 : 87.2
 ```
 
@@ -109,9 +104,7 @@ int main(void)
 - 출력 결과
 
 80 95 77 84 100
-
    80   95   77   84  100
-
 평균 : 87.2
 ```
 
@@ -166,7 +159,7 @@ int main(void)
   count = sizeof(score) / sizeof(score[0]);
   ```
 
-  countㄴ : 배열 요소의 개수(5)
+  count : 배열 요소의 개수(5)
 
   sizeof(score) : 배열 전체 크기(20바이트) (int형 count 4바이트 X int형 배열 score 5개 = 20)
 
